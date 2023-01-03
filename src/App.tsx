@@ -118,7 +118,7 @@ function App() {
                 go();
               }}
             >
-              <img
+              <img alt='arr'
                 className={`${isLoading && "animate-ping"}`}
                 src="images/icon-arrow.svg"
               />
