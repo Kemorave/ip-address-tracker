@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module", 
-   "homepage": "https://kemorave.github.io",
+   "homepage": "https://kemorave.github.io/ip-address-tracker",
   "scripts": {  
       "predeploy": "npm run build",
   "deploy": "gh-pages -d dist",
 
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=./",
     "preview": "vite preview"
   },
   "dependencies": {

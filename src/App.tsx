@@ -120,7 +120,7 @@ function App() {
             >
               <img
                 className={`${isLoading && "animate-ping"}`}
-                src="/public/images/icon-arrow.svg"
+                src="images/icon-arrow.svg"
               />
             </button>
           </div>
