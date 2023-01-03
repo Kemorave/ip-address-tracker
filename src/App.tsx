@@ -81,7 +81,7 @@ function App() {
     SetSkipToken ( false);
   }
   return (
-    <div className="flex flex-col h-[100vh]">
+    <main className="flex flex-col h-[100vh]">
       <div className=" absolute z-50 w-full top-0 left-0  gap-5 items-stretch px-5  h-[15rem] md:h-[13rem]   bg-[url('/images/pattern-bg.png')]">
         <div className="flex flex-col gap-5 h-fit">
           <p className=" self-center text-xl mt-5 text-white">
@@ -194,7 +194,7 @@ function App() {
           <SetView data={data} />
         </MapContainer>
       </div>
-    </div>
+    </main>
   );
 }
 
