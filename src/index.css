@@ -14,3 +14,6 @@ body{
 }.bat-container{
     @apply flex flex-col; 
 }
+.break{
+    @apply hidden md:block w-[1px] bg-gray-200
+}

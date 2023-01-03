@@ -124,7 +124,7 @@ function App() {
               />
             </button>
           </div>
-          <div className="flex md:flex-row md:mt-3 md:mx-20  flex-col md:gap-16 justify-between drop-shadow-lg gap-1 rounded-xl  p-4 bg-white">
+          <div className="flex md:flex-row md:mt-3 md:mx-20  flex-col md:gap-5 justify-between drop-shadow-lg gap-1 rounded-xl  p-4 bg-white">
             <div className="bat-container">
               <p className="head-bat">
                 {ipAddress &&
@@ -132,6 +132,10 @@ function App() {
               </p>
               <p className="sub-bat ">{ipAddress ? ipAddress : "---"}</p>
             </div>
+            
+  <div className="break">
+    
+  </div>
             <div className="bat-container">
               <p className="head-bat">Location</p>
               <p className="sub-bat whitespace-pre-wrap">
@@ -140,6 +144,8 @@ function App() {
                   : "---"}
               </p>
             </div>
+            
+  <div className="break"></div>
             <div className="bat-container">
               <p className="head-bat">Timezone</p>
               <p className="sub-bat break-keep whitespace-nowrap    ">
@@ -148,6 +154,8 @@ function App() {
                   : "---"}
               </p>
             </div>
+            
+  <div className="break"></div>
             <div className="bat-container  ">
               <p className="head-bat">isp</p>
               <p className="sub-bat ">{data?.isp ? data.isp : "---"}</p>
