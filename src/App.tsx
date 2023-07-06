@@ -103,7 +103,7 @@ function App() {
               } 
           outline-0 border-transparent outline-none 
           border-none py-3  md:w-[25rem] bg-white  ring-white ring-0`}
-              placeholder="Search for any IP address or domaine"
+              placeholder="Search for any IP address/domain or press on blank search"
               onChange={(e) => {
                 if (!skipToken) {
                   SetSkipToken ( true);
